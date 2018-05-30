@@ -1,10 +1,10 @@
 import * as types from './mutation-types'
 
 const mutations = {
-  [types.SET_LOADING](state, loading) {
+  [types.setLoading](state, loading) {
     state.loading = loading
   },
-  [types.SET_COUNT](state, count) {
+  [types.setCount](state, count) {
     state.count = count
   }
 }
